@@ -1,6 +1,6 @@
 function changes(){
 	//before create ,append need to remove the p tag
-	const deleElePTag=document.querySelector("#status");
+	const deleElePTag=document.querySelector("p");
 	deleElePTag.remove();
 	//step 1 create the tagElement
 let headingTag=document.createElement("h1");
