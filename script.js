@@ -5,7 +5,7 @@ function changes(){
 	//step 1 create the tagElement
 let headingTag=document.createElement("h1");
 //step -2 set the properties
-headingTag.innerText="Enter Metaverse";
+headingTag.innerText="Entered Metaverse";
 // step -3 create the parentnode obj, attach to the body(parent node)
 let parentElement=document.querySelector("body");
 //append the childelement to the parent
